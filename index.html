@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON 문제 데이터 출력</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; 
+            margin: 20px; 
+            line-height: 1.6;
+            background-color: #f0f2f5;
+        }
+        #quiz-container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .quiz-item {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        /* 버튼 영역 */
+        #navigation {
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        #navigation button {
+            padding: 10px 15px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            margin-right: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        #navigation button:hover {
+            background-color: #f4f4f4;
+        }
+        /* 현재 활성화된 버튼 */
+        #navigation button.active {
+            background-color: #007BFF;
+            color: white;
+            border-color: #007BFF;
+        }
+
+        /* 문제 그룹 (파일 단위) */
+        .quiz-group {
+            display: none; 
+        }
+        .quiz-group.active {
+            display: block;
+        }
+
+        .quiz-image { max-width: 100%; height: auto; border-radius: 4px; margin-top: 10px; margin-bottom: 10px; }
+        .number { font-size: 1.2em; font-weight: bold; color: #007BFF; }
+        .stem { font-size: 1.1em; font-weight: 500; margin-top: 8px; }
+        .lecture { background-color: #f9f9f9; border: 1px solid #eee; padding: 16px; border-radius: 4px; margin: 16px 0; font-style: italic; }
+        
+        /* [핵심] 이 스타일이 점을 없애주는 부분입니다 */
+        .options { 
+            list-style-type: none; /* 점 제거 */
+            padding-left: 0; 
+            margin: 16px 0; 
+        }
+        .options li { margin-bottom: 8px; }
+        
+        /* 정답/해설 스타일은 삭제하지 않고 남겨둬도 HTML에 없으면 안 보입니다 */
+    </style>
+</head>
+<body>
+
+    <h1>TOPIK</h1>
+
+    <div id="navigation">
+        </div>
+
+    <div id="quiz-container">
+        <p>로딩 중...</p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchData();
+        });
+
+        async function fetchData() {
+            const navContainer = document.getElementById('navigation');
+            const quizContainer = document.getElementById('quiz-container');
+
+            try {
+                const listResponse = await fetch('./file_list.json');
+                if (!listResponse.ok) throw new Error('file_list.json을 찾을 수 없습니다.');
+                
+                const filenames = await listResponse.json();
+
+                const fetchPromises = filenames.map(filename =>
+                    fetch(filename).then(response => response.json())
+                );
+                
+                const allQuizArrays = await Promise.all(fetchPromises);
+
+                quizContainer.innerHTML = ''; 
+                navContainer.innerHTML = ''; 
+
+                allQuizArrays.forEach((quizArray, index) => {
+                    const filename = filenames[index];
+                    const groupId = filename.split('/').pop().split('.')[0]; 
+                    const buttonText = groupId; 
+
+                    // 1. 버튼 생성
+                    const button = document.createElement('button');
+                    button.textContent = buttonText;
+                    button.dataset.target = `group-${groupId}`; 
+                    navContainer.appendChild(button);
+
+                    // 2. 문제 그룹 div 생성
+                    const groupDiv = document.createElement('div');
+                    groupDiv.id = `group-${groupId}`; 
+                    groupDiv.className = 'quiz-group'; 
+
+                    // 3. 문제 추가
+                    quizArray.forEach(quizData => {
+                        displayQuiz(quizData, groupDiv); 
+                    });
+
+                    // 4. 메인 컨테이너에 추가
+                    quizContainer.appendChild(groupDiv);
+                });
+
+                if (navContainer.children.length > 0) {
+                    navContainer.children[0].classList.add('active');
+                }
+                if (quizContainer.children.length > 0) {
+                    quizContainer.children[0].classList.add('active');
+                }
+
+            } catch (error) {
+                console.error("오류 발생:", error);
+                quizContainer.innerHTML = `<p>데이터를 불러오는 데 실패했습니다. (${error.message})</p>`;
+            }
+        }
+
+        // 버튼 클릭 이벤트
+        document.getElementById('navigation').addEventListener('click', (event) => {
+            if (event.target.tagName !== 'BUTTON') return;
+
+            const targetId = event.target.dataset.target;
+
+            document.querySelectorAll('#navigation button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            document.querySelectorAll('.quiz-group').forEach(group => {
+                group.classList.remove('active');
+            });
+
+            event.target.classList.add('active');
+            document.getElementById(targetId).classList.add('active');
+        });
+
+
+        // [수정됨] 정답/해설 제외하고, 오타 수정된 함수
+        function displayQuiz(quizData, containerElement) {
+            
+            let lectureHtml = '';
+            if (quizData.lecture) {
+                if (quizData.lecture.trim().startsWith('<div')) {
+                    lectureHtml = quizData.lecture;
+                } else {
+                    lectureHtml = `<div class="lecture">${quizData.lecture}</div>`;
+                }
+            }
+
+            const optionsHtml = quizData.list.map(option => {
+                return `<li>${option}</li>`;
+            }).join(''); 
+
+            const itemDiv = document.createElement('div');
+            itemDiv.className = 'quiz-item';
+
+            // [수정] classs -> class 로 오타 수정 완료!
+            itemDiv.innerHTML = `
+                <div class="number">문제 ${quizData.number}</div>
+                <div class="stem">${quizData.stem || ''}</div>
+                ${lectureHtml}
+                
+                <ul class="options">
+                    ${optionsHtml}
+                </ul>
+            `;
+            // 정답 및 해설 div는 여기서 아예 제거했습니다.
+            
+            containerElement.appendChild(itemDiv);
+        }
+    </script>
+
+</body>
+</html>
