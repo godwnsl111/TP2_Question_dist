@@ -64,15 +64,15 @@
 
         .quiz-image { max-width: 100%; height: auto; border-radius: 4px; margin-top: 10px; margin-bottom: 10px; }
         .number { font-size: 1.2em; font-weight: bold; color: #007BFF; }
-        .stem { font-size: 1.1em; font-weight: 500; margin-top: 8px; }
+        .stem { font-size: 1.3em; font-weight: 500; margin-top: 8px; white-space: pre-wrap;}
         .lecture { 
             background-color: #f9f9f9; 
             border: 1px solid #eee; 
             padding: 16px; 
             border-radius: 4px; 
-            margin: 16px 0; 
-            font-style: italic;
-            white-space: pre-wrap; 
+            margin: 16px 0;
+            white-space: pre-wrap;
+            font-size: 1.2em
         }
 
         .options { 
@@ -91,7 +91,7 @@
             padding: 15px; 
             margin-top: 20px; 
             border-radius: 4px;
-            font-size: 0.95em;
+            font-size: 1.0em;
             white-space: pre-wrap;
         }
         .answer-text { font-weight: bold; color: #d9534f; margin-bottom: 8px; }
@@ -225,7 +225,6 @@
             const itemDiv = document.createElement('div');
             itemDiv.className = 'quiz-item';
             itemDiv.innerHTML = `
-                <div class="number">${quizData.type_number || ''}</div>
                 <div class="stem">${quizData.question || ''}</div>
                 ${audioHtml}
                 ${imageHtml}
