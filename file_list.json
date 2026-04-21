@@ -1,5 +1,5 @@
 [
-  "./quizzes/TP2L_102.json",
-  "./quizzes/TP2R_101.json",
-  "./quizzes/TP2W_11.json"
+  "./quizzes/듣기.json",
+  "./quizzes/읽기.json",
+  "./quizzes/쓰기.json"
 ]
