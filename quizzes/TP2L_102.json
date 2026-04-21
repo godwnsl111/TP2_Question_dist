@@ -14,7 +14,8 @@
         "subject": "전기차 충전소 + 차에 충전기 꽂기 + 친환경 교통수단",
         "lec_char": 55,
         "opt_char": 42.5,
-        "diff": "4"
+        "diff": "4",
+        "audio_url": "./audio/TP2L_102_1.wav"
     },
     {
         "type_number": "TP2L_2",
@@ -31,7 +32,8 @@
         "subject": "카페 카운터 + 텀블러 건네기 + 개인 컵 할인",
         "lec_char": 75,
         "opt_char": 64.0,
-        "diff": "2"
+        "diff": "2",
+        "audio_url": "./audio/TP2L_102_2.wav"
     },
     {
         "type_number": "TP2L_3",
@@ -48,7 +50,8 @@
         "subject": "팝업 스토어 + 한정판 상품 구매 + 이색 경험 추구",
         "lec_char": 143,
         "opt_char": 20.75,
-        "diff": "4"
+        "diff": "4",
+        "audio_url": "./audio/TP2L_102_3.wav"
     },
     {
         "type_number": "TP2L_4",
@@ -70,7 +73,8 @@
         "subject": "세탁소 방문 + 얼룩 제거 문의 + 안심과 해결책",
         "lec_char": 40,
         "opt_char": 14.5,
-        "diff": "2"
+        "diff": "2",
+        "audio_url": "./audio/TP2L_102_4.wav"
     },
     {
         "type_number": "TP2L_5",
@@ -92,7 +96,8 @@
         "subject": "호텔 프런트 + 객실 소음 불편 + 대체 객실 제공",
         "lec_char": 46,
         "opt_char": 13.0,
-        "diff": "2"
+        "diff": "2",
+        "audio_url": "./audio/TP2L_102_5.wav"
     },
     {
         "type_number": "TP2L_6",
@@ -114,7 +119,8 @@
         "subject": "공항 수하물센터 + 캐리어 파손 신고 + 사과 및 보상 안내",
         "lec_char": 49,
         "opt_char": 18.75,
-        "diff": "3"
+        "diff": "3",
+        "audio_url": "./audio/TP2L_102_6.wav"
     },
     {
         "type_number": "TP2L_7",
@@ -136,7 +142,8 @@
         "subject": "영화관 매표소 + 상영 시간 지각 + 대체 시간 안내",
         "lec_char": 48,
         "opt_char": 13.25,
-        "diff": "2"
+        "diff": "2",
+        "audio_url": "./audio/TP2L_102_7.wav"
     },
     {
         "type_number": "TP2L_8",
@@ -158,7 +165,8 @@
         "subject": "반려견 유치원 + 첫 방문 적응 걱정 + 실시간 영상 안심",
         "lec_char": 55,
         "opt_char": 13.75,
-        "diff": "3"
+        "diff": "3",
+        "audio_url": "./audio/TP2L_102_8.wav"
     },
     {
         "type_number": "TP2L_9",
@@ -180,7 +188,8 @@
         "subject": "가구 매장 쇼룸 + 분실한 줄자 탐색 + 정확한 치수 측정",
         "lec_char": 92,
         "opt_char": 10.75,
-        "diff": "2"
+        "diff": "2",
+        "audio_url": "./audio/TP2L_102_9.wav"
     },
     {
         "type_number": "TP2L_10",
@@ -202,7 +211,8 @@
         "subject": "출입국사무소 창구 + 비자 수수료 납부 + 원활한 비자 연장",
         "lec_char": 127,
         "opt_char": 9.75,
-        "diff": "3"
+        "diff": "3",
+        "audio_url": "./audio/TP2L_102_10.wav"
     },
     {
         "type_number": "TP2L_11",
@@ -224,7 +234,8 @@
         "subject": "식물원 + 매점 + 벤치",
         "lec_char": 118,
         "opt_char": 9.25,
-        "diff": "3"
+        "diff": "3",
+        "audio_url": "./audio/TP2L_102_11.wav"
     },
     {
         "type_number": "TP2L_12",
@@ -246,7 +257,8 @@
         "subject": "제품 샘플실 + 신제품 라벨 부착 + 바이어 미팅 준비",
         "lec_char": 129,
         "opt_char": 9.25,
-        "diff": "3"
+        "diff": "3",
+        "audio_url": "./audio/TP2L_102_12.wav"
     },
     {
         "type_number": "TP2L_13",
@@ -268,7 +280,8 @@
         "subject": "아파트 단지 + 소방 시설 점검 + 주민 협조 요청",
         "lec_char": 115,
         "opt_char": 21.0,
-        "diff": "3"
+        "diff": "3",
+        "audio_url": "./audio/TP2L_102_13.wav"
     },
     {
         "type_number": "TP2L_14",
@@ -290,7 +303,8 @@
         "subject": "공영 주차장 + 무인 정산기 설치 + 출차 시간 단축",
         "lec_char": 135,
         "opt_char": 22.5,
-        "diff": "4"
+        "diff": "4",
+        "audio_url": "./audio/TP2L_102_14.wav"
     },
     {
         "type_number": "TP2L_15",
@@ -312,7 +326,8 @@
         "subject": "유기견 보호소 + 무료 건강 검진 + 입양 부담 완화",
         "lec_char": 149,
         "opt_char": 21.75,
-        "diff": "4"
+        "diff": "4",
+        "audio_url": "./audio/TP2L_102_15.wav"
     },
     {
         "type_number": "TP2L_16",
@@ -334,7 +349,8 @@
         "subject": "경기 영상 분석 + 상대팀 전술 파악 + 맞춤형 전략 수립",
         "lec_char": 154,
         "opt_char": 22.25,
-        "diff": "4"
+        "diff": "4",
+        "audio_url": "./audio/TP2L_102_16.wav"
     },
     {
         "type_number": "TP2L_17",
@@ -356,7 +372,8 @@
         "subject": "용돈 관리 + 지출 내역 기록 + 소비 습관 형성",
         "lec_char": 100,
         "opt_char": 19.5,
-        "diff": "2"
+        "diff": "2",
+        "audio_url": "./audio/TP2L_102_17.wav"
     },
     {
         "type_number": "TP2L_18",
@@ -378,7 +395,8 @@
         "subject": "스마트폰 + 취침 전 사용 자제 + 수면의 질 향상",
         "lec_char": 116,
         "opt_char": 23.25,
-        "diff": "2"
+        "diff": "2",
+        "audio_url": "./audio/TP2L_102_18.wav"
     },
     {
         "type_number": "TP2L_19",
@@ -400,7 +418,8 @@
         "subject": "공유 자전거 + 지정 구역 반납 + 보행자 안전 확보",
         "lec_char": 146,
         "opt_char": 23.5,
-        "diff": "3"
+        "diff": "3",
+        "audio_url": "./audio/TP2L_102_19.wav"
     },
     {
         "type_number": "TP2L_20",
@@ -422,7 +441,8 @@
         "subject": "제품 포장 + 포장재 최소화 + 자원 낭비 방지",
         "lec_char": 156,
         "opt_char": 26.0,
-        "diff": "4"
+        "diff": "4",
+        "audio_url": "./audio/TP2L_102_20.wav"
     },
     {
         "type_number": "TP2L_21",
@@ -444,7 +464,8 @@
         "subject": "방과후 프로그램 + 우선 선발 도입 + 교육 격차 해소",
         "lec_char": 228,
         "opt_char": 24.25,
-        "diff": "5"
+        "diff": "5",
+        "audio_url": "./audio/TP2L_102_21.wav"
     },
     {
         "type_number": "TP2L_22",
@@ -488,7 +509,8 @@
         "subject": "장난감 대여소 + 회원 가입 문의 + 대여 조건 확인",
         "lec_char": 189,
         "opt_char": 21.0,
-        "diff": "3"
+        "diff": "3",
+        "audio_url": "./audio/TP2L_102_23.wav"
     },
     {
         "type_number": "TP2L_24",
@@ -532,7 +554,8 @@
         "subject": "지하 시설물 + 점검 로봇 도입 + 사각지대 해소",
         "lec_char": 265,
         "opt_char": 26.0,
-        "diff": "5"
+        "diff": "5",
+        "audio_url": "./audio/TP2L_102_25.wav"
     },
     {
         "type_number": "TP2L_26",
@@ -576,7 +599,8 @@
         "subject": "지역 중고 장터 + 안전 구역 지정 + 사기 범죄 예방",
         "lec_char": 243,
         "opt_char": 22.75,
-        "diff": "5"
+        "diff": "5",
+        "audio_url": "./audio/TP2L_102_27.wav"
     },
     {
         "type_number": "TP2L_28",
@@ -620,7 +644,8 @@
         "subject": "한글 서체 개발 + 글꼴 굵기 조절 + 화면 가독성 향상",
         "lec_char": 255,
         "opt_char": 12.75,
-        "diff": "5"
+        "diff": "5",
+        "audio_url": "./audio/TP2L_102_29.wav"
     },
     {
         "type_number": "TP2L_30",
@@ -664,7 +689,8 @@
         "subject": "일회용 컵 보증금제 + 교차 반납 허용 + 정책 실효성 확보",
         "lec_char": 244,
         "opt_char": 29.75,
-        "diff": "5"
+        "diff": "5",
+        "audio_url": "./audio/TP2L_102_31.wav"
     },
     {
         "type_number": "TP2L_32",
@@ -708,7 +734,8 @@
         "subject": "나이테의 형성 + 계절별 생장 차이 + 과거 기후의 유추",
         "lec_char": 287,
         "opt_char": 14.0,
-        "diff": "4"
+        "diff": "4",
+        "audio_url": "./audio/TP2L_102_33.wav"
     },
     {
         "type_number": "TP2L_34",
@@ -752,7 +779,8 @@
         "subject": "국립 점자 도서관 + 신축 개관 기념사 + 정보 접근성 향상",
         "lec_char": 284,
         "opt_char": 27.25,
-        "diff": "5"
+        "diff": "5",
+        "audio_url": "./audio/TP2L_102_35.wav"
     },
     {
         "type_number": "TP2L_36",
@@ -796,7 +824,8 @@
         "subject": "도심 야간 조명 + 적정 밝기 기준 + 빛 공해 최소화",
         "lec_char": 264,
         "opt_char": 26.75,
-        "diff": "4"
+        "diff": "4",
+        "audio_url": "./audio/TP2L_102_37.wav"
     },
     {
         "type_number": "TP2L_38",
@@ -840,7 +869,8 @@
         "subject": "은행 영업점 + 폐쇄 기준 강화 + 금융 접근성 보장",
         "lec_char": 308,
         "opt_char": 26.5,
-        "diff": "6"
+        "diff": "6",
+        "audio_url": "./audio/TP2L_102_39.wav"
     },
     {
         "type_number": "TP2L_40",
@@ -884,7 +914,8 @@
         "subject": "투수성 보도블록 + 빗물 지하 투과 + 도심 침수 예방",
         "lec_char": 289,
         "opt_char": 27.0,
-        "diff": "6"
+        "diff": "6",
+        "audio_url": "./audio/TP2L_102_41.wav"
     },
     {
         "type_number": "TP2L_42",
@@ -928,7 +959,8 @@
         "subject": "넛지 효과의 원리 + 계단 앞 발자국 + 자발적 행동 유도",
         "lec_char": 323,
         "opt_char": 10.0,
-        "diff": "6"
+        "diff": "6",
+        "audio_url": "./audio/TP2L_102_43.wav"
     },
     {
         "type_number": "TP2L_44",
@@ -972,7 +1004,8 @@
         "subject": "솔방울 + 습도 감지 개폐 + 씨앗 생존율 향상",
         "lec_char": 315,
         "opt_char": 27.25,
-        "diff": "6"
+        "diff": "6",
+        "audio_url": "./audio/TP2L_102_45.wav"
     },
     {
         "type_number": "TP2L_46",
@@ -1016,7 +1049,8 @@
         "subject": "한계 기업 + 관행적 자금 지원 + 구조 조정 촉구",
         "lec_char": 330,
         "opt_char": 30.75,
-        "diff": "6"
+        "diff": "6",
+        "audio_url": "./audio/TP2L_102_47.wav"
     },
     {
         "type_number": "TP2L_48",
@@ -1060,7 +1094,8 @@
         "subject": "계획적 진부화 + 제품 수명 단축 + 자원 낭비 심화",
         "lec_char": 357,
         "opt_char": 27.5,
-        "diff": "6"
+        "diff": "6",
+        "audio_url": "./audio/TP2L_102_49.wav"
     },
     {
         "type_number": "TP2L_50",
