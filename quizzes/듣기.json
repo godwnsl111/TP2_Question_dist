@@ -15,7 +15,10 @@
         "lec_char": 55,
         "opt_char": 42.5,
         "diff": "4",
-        "audio_url": "./audio/TP2L_102_1.wav"
+        "audio_url": [
+            "./audio/TP2L_102_1.wav",
+            "./audio/102_1.wav"
+        ]
     },
     {
         "type_number": "TP2L_2",
@@ -33,7 +36,10 @@
         "lec_char": 75,
         "opt_char": 64.0,
         "diff": "2",
-        "audio_url": "./audio/TP2L_102_2.wav"
+        "audio_url": [
+            "./audio/TP2L_102_2.wav",
+            "./audio/102_2.wav"
+        ]
     },
     {
         "type_number": "TP2L_3",
@@ -51,7 +57,10 @@
         "lec_char": 143,
         "opt_char": 20.75,
         "diff": "4",
-        "audio_url": "./audio/TP2L_102_3.wav"
+        "audio_url": [
+            "./audio/TP2L_102_3.wav",
+            "./audio/102_3.wav"
+        ]
     },
     {
         "type_number": "TP2L_4",
@@ -74,7 +83,10 @@
         "lec_char": 40,
         "opt_char": 14.5,
         "diff": "2",
-        "audio_url": "./audio/TP2L_102_4.wav"
+        "audio_url": [
+            "./audio/TP2L_102_4.wav",
+            "./audio/102_4.wav"
+        ]
     },
     {
         "type_number": "TP2L_5",
@@ -97,7 +109,10 @@
         "lec_char": 46,
         "opt_char": 13.0,
         "diff": "2",
-        "audio_url": "./audio/TP2L_102_5.wav"
+        "audio_url": [
+            "./audio/TP2L_102_5.wav",
+            "./audio/102_5.wav"
+        ]
     },
     {
         "type_number": "TP2L_6",
@@ -120,7 +135,10 @@
         "lec_char": 49,
         "opt_char": 18.75,
         "diff": "3",
-        "audio_url": "./audio/TP2L_102_6.wav"
+        "audio_url": [
+            "./audio/TP2L_102_6.wav",
+            "./audio/102_6.wav"
+        ]
     },
     {
         "type_number": "TP2L_7",
@@ -143,7 +161,10 @@
         "lec_char": 48,
         "opt_char": 13.25,
         "diff": "2",
-        "audio_url": "./audio/TP2L_102_7.wav"
+        "audio_url": [
+            "./audio/TP2L_102_7.wav",
+            "./audio/102_7.wav"
+        ]
     },
     {
         "type_number": "TP2L_8",
@@ -166,7 +187,10 @@
         "lec_char": 55,
         "opt_char": 13.75,
         "diff": "3",
-        "audio_url": "./audio/TP2L_102_8.wav"
+        "audio_url": [
+            "./audio/TP2L_102_8.wav",
+            "./audio/102_8.wav"
+        ]
     },
     {
         "type_number": "TP2L_9",
@@ -189,7 +213,10 @@
         "lec_char": 92,
         "opt_char": 10.75,
         "diff": "2",
-        "audio_url": "./audio/TP2L_102_9.wav"
+        "audio_url": [
+            "./audio/TP2L_102_9.wav",
+            "./audio/102_9.wav"
+        ]
     },
     {
         "type_number": "TP2L_10",
@@ -212,7 +239,10 @@
         "lec_char": 127,
         "opt_char": 9.75,
         "diff": "3",
-        "audio_url": "./audio/TP2L_102_10.wav"
+        "audio_url": [
+            "./audio/TP2L_102_10.wav",
+            "./audio/102_10.wav"
+        ]
     },
     {
         "type_number": "TP2L_11",
@@ -235,7 +265,10 @@
         "lec_char": 118,
         "opt_char": 9.25,
         "diff": "3",
-        "audio_url": "./audio/TP2L_102_11.wav"
+        "audio_url": [
+            "./audio/TP2L_102_11.wav",
+            "./audio/102_11.wav"
+        ]
     },
     {
         "type_number": "TP2L_12",
@@ -258,7 +291,10 @@
         "lec_char": 129,
         "opt_char": 9.25,
         "diff": "3",
-        "audio_url": "./audio/TP2L_102_12.wav"
+        "audio_url": [
+            "./audio/TP2L_102_12.wav",
+            "./audio/102_12.wav"
+        ]
     },
     {
         "type_number": "TP2L_13",
@@ -281,7 +317,10 @@
         "lec_char": 115,
         "opt_char": 21.0,
         "diff": "3",
-        "audio_url": "./audio/TP2L_102_13.wav"
+        "audio_url": [
+            "./audio/TP2L_102_13.wav",
+            "./audio/102_13.wav"
+        ]
     },
     {
         "type_number": "TP2L_14",
@@ -304,7 +343,10 @@
         "lec_char": 135,
         "opt_char": 22.5,
         "diff": "4",
-        "audio_url": "./audio/TP2L_102_14.wav"
+        "audio_url": [
+            "./audio/TP2L_102_14.wav",
+            "./audio/102_14.wav"
+        ]
     },
     {
         "type_number": "TP2L_15",
@@ -327,7 +369,10 @@
         "lec_char": 149,
         "opt_char": 21.75,
         "diff": "4",
-        "audio_url": "./audio/TP2L_102_15.wav"
+        "audio_url": [
+            "./audio/TP2L_102_15.wav",
+            "./audio/102_15.wav"
+        ]
     },
     {
         "type_number": "TP2L_16",
@@ -350,7 +395,10 @@
         "lec_char": 154,
         "opt_char": 22.25,
         "diff": "4",
-        "audio_url": "./audio/TP2L_102_16.wav"
+        "audio_url": [
+            "./audio/TP2L_102_16.wav",
+            "./audio/102_16.wav"
+        ]
     },
     {
         "type_number": "TP2L_17",
@@ -373,7 +421,10 @@
         "lec_char": 100,
         "opt_char": 19.5,
         "diff": "2",
-        "audio_url": "./audio/TP2L_102_17.wav"
+        "audio_url": [
+            "./audio/TP2L_102_17.wav",
+            "./audio/102_17.wav"
+        ]
     },
     {
         "type_number": "TP2L_18",
@@ -396,7 +447,10 @@
         "lec_char": 116,
         "opt_char": 23.25,
         "diff": "2",
-        "audio_url": "./audio/TP2L_102_18.wav"
+        "audio_url": [
+            "./audio/TP2L_102_18.wav",
+            "./audio/102_18.wav"
+        ]
     },
     {
         "type_number": "TP2L_19",
@@ -419,7 +473,10 @@
         "lec_char": 146,
         "opt_char": 23.5,
         "diff": "3",
-        "audio_url": "./audio/TP2L_102_19.wav"
+        "audio_url": [
+            "./audio/TP2L_102_19.wav",
+            "./audio/102_19.wav"
+        ]
     },
     {
         "type_number": "TP2L_20",
@@ -442,7 +499,10 @@
         "lec_char": 156,
         "opt_char": 26.0,
         "diff": "4",
-        "audio_url": "./audio/TP2L_102_20.wav"
+        "audio_url": [
+            "./audio/TP2L_102_20.wav",
+            "./audio/102_20.wav"
+        ]
     },
     {
         "type_number": "TP2L_21",
@@ -465,7 +525,10 @@
         "lec_char": 228,
         "opt_char": 24.25,
         "diff": "5",
-        "audio_url": "./audio/TP2L_102_21.wav"
+        "audio_url": [
+            "./audio/TP2L_102_21.wav",
+            "./audio/102_21,22.wav"
+        ]
     },
     {
         "type_number": "TP2L_22",
@@ -510,7 +573,10 @@
         "lec_char": 189,
         "opt_char": 21.0,
         "diff": "3",
-        "audio_url": "./audio/TP2L_102_23.wav"
+        "audio_url": [
+            "./audio/TP2L_102_23.wav",
+            "./audio/102_23,24.wav"
+        ]
     },
     {
         "type_number": "TP2L_24",
@@ -555,7 +621,10 @@
         "lec_char": 265,
         "opt_char": 26.0,
         "diff": "5",
-        "audio_url": "./audio/TP2L_102_25.wav"
+        "audio_url": [
+            "./audio/TP2L_102_25.wav",
+            "./audio/102_25,26.wav"
+        ]
     },
     {
         "type_number": "TP2L_26",
@@ -600,7 +669,10 @@
         "lec_char": 243,
         "opt_char": 22.75,
         "diff": "5",
-        "audio_url": "./audio/TP2L_102_27.wav"
+        "audio_url": [
+            "./audio/TP2L_102_27.wav",
+            "./audio/102_27,28.wav"
+        ]
     },
     {
         "type_number": "TP2L_28",
@@ -645,7 +717,10 @@
         "lec_char": 255,
         "opt_char": 12.75,
         "diff": "5",
-        "audio_url": "./audio/TP2L_102_29.wav"
+        "audio_url": [
+            "./audio/TP2L_102_29.wav",
+            "./audio/102_29,30.wav"
+        ]
     },
     {
         "type_number": "TP2L_30",
@@ -690,7 +765,10 @@
         "lec_char": 244,
         "opt_char": 29.75,
         "diff": "5",
-        "audio_url": "./audio/TP2L_102_31.wav"
+        "audio_url": [
+            "./audio/TP2L_102_31.wav",
+            "./audio/102_31,32.wav"
+        ]
     },
     {
         "type_number": "TP2L_32",
@@ -735,7 +813,10 @@
         "lec_char": 287,
         "opt_char": 14.0,
         "diff": "4",
-        "audio_url": "./audio/TP2L_102_33.wav"
+        "audio_url": [
+            "./audio/TP2L_102_33.wav",
+            "./audio/102_33,34.wav"
+        ]
     },
     {
         "type_number": "TP2L_34",
@@ -780,7 +861,10 @@
         "lec_char": 284,
         "opt_char": 27.25,
         "diff": "5",
-        "audio_url": "./audio/TP2L_102_35.wav"
+        "audio_url": [
+            "./audio/TP2L_102_35.wav",
+            "./audio/102_35,36.wav"
+        ]
     },
     {
         "type_number": "TP2L_36",
@@ -825,7 +909,10 @@
         "lec_char": 264,
         "opt_char": 26.75,
         "diff": "4",
-        "audio_url": "./audio/TP2L_102_37.wav"
+        "audio_url": [
+            "./audio/TP2L_102_37.wav",
+            "./audio/102_37,38.wav"
+        ]
     },
     {
         "type_number": "TP2L_38",
@@ -870,7 +957,10 @@
         "lec_char": 308,
         "opt_char": 26.5,
         "diff": "6",
-        "audio_url": "./audio/TP2L_102_39.wav"
+        "audio_url": [
+            "./audio/TP2L_102_39.wav",
+            "./audio/102_39,40.wav"
+        ]
     },
     {
         "type_number": "TP2L_40",
@@ -915,7 +1005,10 @@
         "lec_char": 289,
         "opt_char": 27.0,
         "diff": "6",
-        "audio_url": "./audio/TP2L_102_41.wav"
+        "audio_url": [
+            "./audio/TP2L_102_41.wav",
+            "./audio/102_41,42.wav"
+        ]
     },
     {
         "type_number": "TP2L_42",
@@ -960,7 +1053,10 @@
         "lec_char": 323,
         "opt_char": 10.0,
         "diff": "6",
-        "audio_url": "./audio/TP2L_102_43.wav"
+        "audio_url": [
+            "./audio/TP2L_102_43.wav",
+            "./audio/102_43,44.wav"
+        ]
     },
     {
         "type_number": "TP2L_44",
@@ -1005,7 +1101,10 @@
         "lec_char": 315,
         "opt_char": 27.25,
         "diff": "6",
-        "audio_url": "./audio/TP2L_102_45.wav"
+        "audio_url": [
+            "./audio/TP2L_102_45.wav",
+            "./audio/102_45,46.wav"
+        ]
     },
     {
         "type_number": "TP2L_46",
@@ -1050,7 +1149,10 @@
         "lec_char": 330,
         "opt_char": 30.75,
         "diff": "6",
-        "audio_url": "./audio/TP2L_102_47.wav"
+        "audio_url": [
+            "./audio/TP2L_102_47.wav",
+            "./audio/102_47,48.wav"
+        ]
     },
     {
         "type_number": "TP2L_48",
@@ -1095,7 +1197,10 @@
         "lec_char": 357,
         "opt_char": 27.5,
         "diff": "6",
-        "audio_url": "./audio/TP2L_102_49.wav"
+        "audio_url": [
+            "./audio/TP2L_102_49.wav",
+            "./audio/102_49,50.wav"
+        ]
     },
     {
         "type_number": "TP2L_50",

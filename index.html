@@ -204,13 +204,14 @@
             // 3. 오디오 처리 (JSON에 audio_url 키가 있다고 가정)
             let audioHtml = '';
             if (quizData.audio_url) {
-                audioHtml = `
+            const audioUrls = Array.isArray(quizData.audio_url) ? quizData.audio_url : [quizData.audio_url];
+            audioHtml = audioUrls.map(url => `
                     <div class="audio-player">
                         <audio controls controlsList="nodownload" oncontextmenu="return false;">
-                            <source src="${quizData.audio_url}" type="audio/mpeg">
+                        <source src="${url}" type="audio/mpeg">
                         </audio>
                     </div>
-                `;
+            `).join('');
             }
 
             // 4. 정답 및 해설 (comment 키 사용)
